@@ -13,7 +13,7 @@ git branch -a
 
 git add .
 git status
-git commit -m "adding the commands.txt initial file" .
+git commit -m "adding the commands.txt second file" .
 git status
 git push .
 
@@ -22,3 +22,6 @@ git push .
 git push -u origin master
 git push origin master
 git status
+
+#to set the URL of the git with the access token
+git remote set-url origin https://neillorca:<your_token>@github.com/neillorca/DockerMiniProjects.git
