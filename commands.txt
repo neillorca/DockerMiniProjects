@@ -1,0 +1,24 @@
+git init
+git status
+
+git config --global user.name "neil"
+git config --global user.email "neillorca29@gmail.com"
+git config --global --list
+
+git remote add origin https://github.com/neillorca/DockerMiniProjects.git
+git remote -v
+git ls-remote --heads https://github.com/neillorca/DockerMiniProjects.git
+git checkout -b master
+git branch -a
+
+git add .
+git status
+git commit -m "adding the commands.txt initial file" .
+git status
+git push .
+
+#before pushing, please generate an access token that will be use as a password
+
+git push -u origin master
+git push origin master
+git status
