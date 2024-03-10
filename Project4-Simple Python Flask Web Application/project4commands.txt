@@ -1,0 +1,29 @@
+Project4-Simple Python Flask Web Application
+
+docker images
+docker ps
+docker ps -a
+
+docker pull ubuntu:latest
+#cd first to the directory where Dockerfile is saved
+docker build -t nlorca/simplepyflaskwebapp:v1 .
+
+docker inspect nlorca/simplepyflaskwebapp:v1
+#docker scout quickview
+docker run -d -p 5000:5000 --name simplepyflaskwebapp nlorca/simplepyflaskwebapp:v1
+
+#stop a running contaner
+docker stop <container id>
+
+#remove a stopped container
+docker rm <container id>
+
+#remove a container image
+docker rmi <image>
+
+---
+cd ..
+git add .
+git status
+git commit -m "Added Project4-Simple Python Flask Web Application" .
+git push -u origin master
