@@ -1,0 +1,9 @@
+#docker pull docker/whalesay
+
+docker build -t smartwhale .
+docker images
+docker ps -a
+ 
+docker run --name mysmartwhale smartwhale 
+
+docker ps -a
