@@ -24,4 +24,7 @@ git push origin master
 git status
 
 #to set the URL of the git with the access token
+#account settings > developer tools > personal access tokens
 git remote set-url origin https://neillorca:<your_token>@github.com/neillorca/DockerMiniProjects.git
+
+
