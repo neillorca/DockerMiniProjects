@@ -7,3 +7,8 @@ docker ps -a
 docker run --name mysmartwhale smartwhale 
 
 docker ps -a
+
+git add '.\Project1-Simple Smart Whale Say\*'
+git status
+git commit -m "added Project1-Simple Smart Whale Say" .
+git push -u origin master
